@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+#text1{
+    position: relative;
+    color: rgb(210, 215, 215);
+    font-family: "rockwell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 1rem;
+    width: 10rem;
+    margin: auto;
+}
