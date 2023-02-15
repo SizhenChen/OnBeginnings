@@ -1,6 +1,9 @@
 body{
     background-color: black;
 }
+.fix{
+    position: static;
+}
 #title{
     color: rgb(210, 215, 215);
     font-family: "rockwell", sans-serif;
@@ -9,18 +12,22 @@ body{
     text-align: center;
     font-size: 1.6rem;
     margin-top: 2rem;
-    animation-name: opacity;
 }
+
 #square {
+    border: none;
+    display: block;
     cursor: pointer;
     position: relative;
     height: 2rem;
     width: 2rem;
     background-color: rgb(225, 231, 231);
     margin: auto;
-    margin-top: 20rem;
+    margin-top: 21rem;
     animation: pulse 1s infinite;
 }
+
+
 @keyframes pulse {
     0% {
         height: 2rem;
@@ -47,11 +54,30 @@ body{
         width: 1.85rem;
     }
   }
-  @keyframes opacity{
+  
+  @keyframes Opacity{
     0%{
-        filter: opacity(100%);
+        opacity: 1;
+    }
+    80%{
+        opacity: 0;
+    }
+  }
+
+  @keyframes moveAndZoom{
+    0%{
+        margin-top: 21rem;
+    }
+    70%{
+        margin-top: 23rem;
+        transform: scale(1);
+    }
+    90%{
+        transform: scale(50);
+        filter: opacity(1);
     }
     100%{
-        filter: opacity(0%);
+        transform: scale(50);
+        filter: opacity(0);
     }
   }

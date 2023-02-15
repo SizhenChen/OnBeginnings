@@ -1,9 +1,14 @@
 body{
     background-color: black;
 }
+html, body {
+    width:  100%;
+    height: 100%;
+    margin: 0;
+  }
 
 #text1{
-    position: relative;
+    position: absolute;
     color: rgb(210, 215, 215);
     font-family: "rockwell", sans-serif;
     font-weight: 400;
