@@ -2,7 +2,7 @@ div {
     display: flex;
     filter: brightness(0%);
     animation-name: spark;
-    animation-delay: 4s;
+    animation-delay: 3.5s;
     animation-duration: 1s;
   }
 
@@ -39,14 +39,15 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: left;
-    font-size: 0.8rem;
+    font-size: xx-small;
     text-decoration: none; 
-    width: 5rem;
+    width: 7rem;
     margin: auto;
-    padding: 5vw;
-    padding-top: 7vh;
-    padding-bottom: 7vh;
+    padding: 4vw;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
     cursor: pointer;
+    /* background-color: rgb(178, 178, 178, 0.2); */
 }
 
 #text:hover{
@@ -63,6 +64,61 @@ body {
         color: black;
     }
 }
+
+@media (min-width: 480px) {
+    #text{
+        font-size: 0.1rem;
+        width: 9rem;
+        margin: auto;
+        padding: 4vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+  }
+
+@media screen and (min-width: 600px) {
+    #text{
+        font-size: 0.6rem;
+        width: 9rem;
+        margin: auto;
+        padding: 6vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    #text{
+        font-size: 0.8rem;
+        width: 11rem;
+        margin: auto;
+        padding: 5vw;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+  }
+
+@media screen and (min-width: 900px) {
+    #text{
+        font-size: 0.9rem;
+        width: 15rem;
+        margin: auto;
+        padding: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+    #text{
+        font-size: 1rem;
+        width: 17rem;
+        margin: auto;
+        padding: 7vw;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+  }
 
 #rectangle {
     border: none;
