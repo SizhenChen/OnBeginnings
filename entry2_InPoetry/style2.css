@@ -3,7 +3,7 @@ div {
     filter: brightness(0%);
     animation-name: spark;
     animation-delay: 4s;
-    animation-duration: 2s;
+    animation-duration: 1s;
   }
 
 div img{
@@ -30,10 +30,10 @@ body {
 }
 
 #text{
-    position:absolute;
+    position: absolute;
     top:50%;
     left:50%;
-    transform:translate(-50%,-50%);
+    transform: translate(-50%,-50%);
     color: rgb(210, 215, 215);
     font-family: "rockwell", sans-serif;
     font-weight: 400;
