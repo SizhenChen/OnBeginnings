@@ -1,0 +1,154 @@
+div {
+    display: flex;
+    filter: brightness(0%);
+    animation-name: spark;
+    animation-delay: 3.5s;
+    animation-duration: 1s;
+  }
+
+div img{
+    flex-grow: 1;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+   background-color: black; 
+   margin: 0;
+}
+
+@keyframes spark {
+    0%{
+        filter: brightness(0%);
+    }
+    50%{
+        filter: brightness(100%);
+    }
+    100%{
+        filter: brightness(0%);
+    }
+}
+
+#text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: rgb(210, 215, 215);
+    font-family: "rockwell", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-size: 0.01rem;
+    text-decoration: none; 
+    width: 7.9rem;
+    margin: auto;
+    padding: 3vw;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    cursor: pointer;
+    /* background-color: rgb(178, 178, 178, 0.2); */
+}
+
+#text:hover{
+    animation: fadeIn 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn{
+    from{
+        color: rgb(210, 215, 215);
+    }
+    to{
+        background-color:rgb(210, 215, 215);
+        color: black;
+    }
+}
+
+@media (min-width: 480px) {
+    #text{
+        font-size: 0.6rem;
+        width: 11rem;
+        margin: auto;
+        padding: 3vw;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+  }
+
+@media screen and (min-width: 600px) {
+    #text{
+        font-size: 0.8rem;
+        width: 12rem;
+        margin: auto;
+        padding: 4vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+  }
+
+@media screen and (min-width: 700px) {
+    #text{
+        font-size: 0.8rem;
+        width: 13rem;
+        margin: auto;
+        padding: 5vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+  }
+
+@media screen and (min-width: 900px) {
+    #text{
+        font-size: 0.9rem;
+        width: 16rem;
+        margin: auto;
+        padding: 5vw;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+  }
+
+@media screen and (min-width: 1200px) {
+    #text{
+        font-size: 1rem;
+        width: 20rem;
+        margin: auto;
+        padding: 6vw;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+    }
+  }
+
+#rectangle {
+    border: none;
+    display: block;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    animation: Zoom 3s;
+}
+
+  @keyframes Zoom{
+    0%{
+        filter: opacity(0);
+    }
+    70%{
+        background-color: rgb(225, 230, 230);
+        filter: opacity(1);
+        width: 30%;
+        height: 30vh;
+    }
+    90%{
+        width: 100%;
+        height: 100vh;
+        filter: opacity(1);
+    }
+    100%{
+        width: 100%;
+        height: 100vh;
+        filter: opacity(0);
+    }
+  }
