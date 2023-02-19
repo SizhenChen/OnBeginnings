@@ -40,6 +40,7 @@ body {
     padding-top: 7vh;
     padding-bottom: 7vh;
     cursor: pointer;
+    /* background-color: aquamarine; */
 }
 
 #text:hover{
@@ -75,8 +76,8 @@ body {
         width: 7rem;
         margin: auto;
         padding: 5vw;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-top: 5.5vh;
+        padding-bottom: 5.5vh;
     }
   }
 
@@ -86,8 +87,8 @@ body {
         width: 8rem;
         margin: auto;
         padding: 6vw;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        padding-top: 4vh;
+        padding-bottom: 4vh;
     }
   }
 
@@ -98,7 +99,7 @@ body {
         margin: auto;
         padding: 5vw;
         padding-top: 5vh;
-        padding-bottom: 5vh;
+        padding-bottom:5vh;
     }
   }
 
@@ -107,9 +108,9 @@ body {
         font-size: 1.3rem;
         width: 15rem;
         margin: auto;
-        padding: 3vw;
-        padding-top: 9vh;
-        padding-bottom: 9vh;
+        padding: 3.5vw;
+        padding-top: 6vh;
+        padding-bottom: 6vh;
     }
   }
 
@@ -119,7 +120,7 @@ body {
         width: 17rem;
         margin: auto;
         padding: 4vw;
-        padding-top: 8vh;
+        padding-top: 7vh;
         padding-bottom: 8vh;
     }
   }
