@@ -39,15 +39,17 @@ body {
     font-weight: 400;
     font-style: normal;
     text-align: left;
-    font-size: 0.01rem;
+    font-size: 1vw;
     text-decoration: none; 
-    width: 7rem;
+    width: 30vw;
+    height:31vh;
     margin: auto;
-    padding: 4vw;
-    padding-top: 2vh;
     padding-bottom: 2vh;
+    padding-top: 1.5vh;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
     cursor: pointer;
-    /* background-color: rgb(178, 178, 178, 0.2); */
+    /* background-color: rgb(178, 178, 178, 0.5); */
 }
 
 #text:hover{
@@ -65,58 +67,46 @@ body {
     }
 }
 
-@media (min-width: 480px) {
+@media screen and (min-width: 450px) {
     #text{
-        font-size: 0.5rem;
-        width: 9rem;
-        margin: auto;
-        padding: 4vw;
-        padding-top: 2vh;
-        padding-bottom: 2vh;
+        font-size: 2vw;
     }
   }
 
 @media screen and (min-width: 600px) {
     #text{
-        font-size: 0.7rem;
-        width: 10rem;
-        margin: auto;
-        padding: 5vw;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        font-size: 2.1vw;
     }
   }
 
 @media screen and (min-width: 700px) {
     #text{
-        font-size: 0.8rem;
-        width: 11rem;
-        margin: auto;
-        padding: 6vw;
-        padding-top: 3vh;
-        padding-bottom: 3vh;
+        font-size: 1.95vw;
+    }
+  }
+
+@media screen and (min-width: 800px) {
+    #text{
+        font-size: 1.9vw;
     }
   }
 
 @media screen and (min-width: 900px) {
     #text{
-        font-size: 0.9rem;
-        width: 15rem;
-        margin: auto;
-        padding: 5vw;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        font-size: 1.7vw;
     }
   }
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1000px) {
     #text{
-        font-size: 1rem;
-        width: 18rem;
-        margin: auto;
-        padding: 6vw;
-        padding-top: 4vh;
-        padding-bottom: 4vh;
+        font-size: 1.6vw;
+    }
+  }
+
+@media screen and (min-width: 1100px) {
+    #text{
+        font-size: 1.5vw;
     }
   }
 
