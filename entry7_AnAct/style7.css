@@ -3,7 +3,7 @@ div {
     filter: brightness(0%);
     animation-name: spark;
     animation-delay: 3.5s;
-    animation-duration: 1s;
+    animation-duration: 2s;
   }
 
 div img{

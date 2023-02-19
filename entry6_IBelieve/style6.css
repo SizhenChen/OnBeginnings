@@ -3,7 +3,7 @@ div {
     filter: brightness(0%);
     animation-name: spark;
     animation-delay: 3.5s;
-    animation-duration: 1s;
+    animation-duration: 2s;
   }
 
 div img{
@@ -64,6 +64,34 @@ body {
         color: black;
     }
 }
+
+#shape{
+    position: absolute;
+    top: 50%;
+    right: 21%;
+    transform: translate(0%,-50%);
+    border-bottom: 5.5vh solid transparent;
+	border-top: 5.5vh solid transparent;
+	border-right: 5.5vw solid rgb(210, 215, 215, 0);
+	height: 47.5vh;
+	width: 0;
+    cursor: pointer;
+}
+
+#shape:hover{
+    animation: fadeIn2 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn2{
+    from{
+        border-right: 5.5vw solid rgb(210, 215, 215, 0);
+    }
+    to{
+        border-right: 5.5vw solid rgb(210, 215, 215);
+    }
+}
+
 
 @media (min-width: 480px) {
     #text{
