@@ -32,10 +32,10 @@ body {
 #shape{
     position: absolute;
     top:50%;
-    right: 14%;
+    right: 0%;
     transform: translate(0%,-50%);
-    height: 15vh;
-    width: 18vw;
+    height: 15.5vh;
+    width: 38.5vw;
     cursor: pointer;
     background-color: rgb(210, 215, 215, 0);
 }
@@ -57,7 +57,7 @@ body {
 #text{
     position: absolute;
     top:50%;
-    left:22.5%;
+    left:0%;
     transform: translate(0%,-50%);
     color: rgb(210, 215, 215);
     font-family: "rockwell", sans-serif;
@@ -66,13 +66,13 @@ body {
     text-align: left;
     font-size: 1.4vw;
     text-decoration: none; 
-    width: 29vw;
-    height:28vh;
+    width: 34vw;
+    height:50vh;
     margin: auto;
     padding-bottom: 2vh;
-    padding-top: 6vh;
-    padding-left: 4vw;
-    padding-right: 3vw;
+    padding-top: 11vh;
+    padding-left: 6vw;
+    padding-right: 6vw;
     /* background-color: rgb(178, 178, 178, 0.4); */
 }
 
