@@ -48,23 +48,8 @@ body {
     padding-top: 4vh;
     padding-left: 3vw;
     padding-right: 2vw;
-    cursor: pointer;
-    background-color: rgb(178, 178, 178, 0);
-}
-
-#text:hover{
-    animation: fadeIn 1s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes fadeIn{
-    from{
-        color: rgb(210, 215, 215);
-    }
-    to{
-        background-color:rgb(210, 215, 215);
-        color: black;
-    }
+    /* cursor: pointer; */
+    /* background-color: rgb(178, 178, 178, 0); */
 }
 
 #shape1{
