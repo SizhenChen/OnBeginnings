@@ -9,13 +9,7 @@ setTimeout(
     }
     ,5000);
 
-setTimeout(
-    function Disappear() {
-        $(document).ready(function() {$("#text").hide(); })
-        $(document).ready(function() {$("#square").hide(); })
-    }
-    ,5000); 
-    
+
 
 
 
