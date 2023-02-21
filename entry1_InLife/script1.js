@@ -1,12 +1,9 @@
-// $(document).ready(function() {$("#rectangle").hide(); })
+$(document).ready(function() {$("#text").hide(); })
 
-
-// function zoomOut() {
-//     document.getElementById("text1").style.visibility = "hidden";
-//     $(document).ready(function() {$("#rectangle").show(); });
-//     document.getElementById("rectangle").style.animation = "Zoom 3s";   
-//     }                                                            
-
+setTimeout(
+    function appear(){
+        $(document).ready(function() {$("#text").show(); })
+    },2000)
 
 
 

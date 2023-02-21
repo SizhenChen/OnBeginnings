@@ -7,7 +7,7 @@ div {
     background-size: cover; */
     filter: brightness(0%);
     animation-name: spark;
-    animation-delay: 0.5s;
+    animation-delay: 2.5s;
     animation-duration: 2s;
   }
 
