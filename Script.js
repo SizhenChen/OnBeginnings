@@ -7,7 +7,7 @@ setTimeout(
     function Redirect() {
         location.replace("https://sizhenchen.github.io/OnBeginnings/entry1_InLife/index1.html");
     }
-    ,5000);
+    ,6000);
 
 
 
