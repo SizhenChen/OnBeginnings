@@ -41,7 +41,7 @@ body {
     text-align: left;
     font-size: 1vw;
     text-decoration: none; 
-    width: 24vw;
+    width: 25vw;
     height:29vh;
     margin: auto;
     padding-bottom: 2.5vh;
@@ -103,26 +103,38 @@ body {
 
 @media screen and (min-width: 600px) {
     #text{
-        font-size: 2.2vw;
+        font-size: 2vw;
     }
   }
 
 @media screen and (min-width: 700px) {
     #text{
-        font-size: 1.9vw;
+        font-size: 1.8vw;
     }
   }
 
 @media screen and (min-width: 900px) {
     #text{
-        font-size: 1.7vw;
+        font-size: 1.63vw;
     }
   }
 
+@media screen and (min-width: 950px) {
+    #text{
+        font-size: 1.61vw;
+    }
+  }
 
 @media screen and (min-width: 1000px) {
     #text{
-        font-size: 1.5vw;
+        font-size: 1.48vw;
+    }
+  }
+
+  
+@media screen and (min-width: 1200px) {
+    #text{
+        font-size: 1.45vw;
     }
   }
 
