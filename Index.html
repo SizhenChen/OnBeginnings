@@ -16,9 +16,13 @@
 
 <body>
  
-    <a id="square" onclick="fadeOut(); Redirect(); Disappear()"></a>
+    <a id="square" onclick="fadeOut(); setTimeout(function() {Redirect();}, 4500); setTimeout(function() {disappear();}, 4000);"></a>
 
     <div class="fix" id="title">On Beginnings...</div>
+
+    <div>
+        <img src="bg1_square.jpg">
+    </div>
 
 </body>
 </html>
