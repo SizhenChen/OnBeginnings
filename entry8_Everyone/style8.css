@@ -73,7 +73,7 @@ body {
     padding-top: 8.5vh;
     padding-left: 4vw;
     padding-right: 3vw;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* background-color: rgb(178, 178, 178, 0.4); */
 }
 
