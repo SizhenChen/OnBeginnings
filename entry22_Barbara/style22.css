@@ -1,9 +1,9 @@
 div {
     display: flex;
-    filter: brightness(0%);
+    /* filter: brightness(0%);
     animation-name: spark;
     animation-delay: 3.5s;
-    animation-duration: 2s;
+    animation-duration: 2s; */
   }
 
 div img{
@@ -32,10 +32,10 @@ body {
 #shape{
     position: absolute;
     top:47%;
-    right: 39.5%;
+    right: 39.4%;
     transform: translate(0%,-50%);
     height: 16vh;
-    width: 12.5vw;
+    width: 12.6vw;
     cursor: pointer;
     background-color: rgb(210, 215, 215, 0);
 }
