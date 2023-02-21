@@ -7,9 +7,15 @@ setTimeout(
     function Redirect() {
         location.replace("https://sizhenchen.github.io/OnBeginnings/entry1_InLife/index1.html");
     }
-    ,6500);
+    ,6000);
 
-
+setTimeout(
+    function Disappear() {
+        $(document).ready(function() {$("#text").hide(); })
+        $(document).ready(function() {$("#square").hide(); })
+    }
+    ,5800); 
+    
 
 
 
